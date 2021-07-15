@@ -21,12 +21,13 @@
         "through": ">=2.3.8"
     },
     "devDependencies": {
-        "it-is": "~1.0.3",
+        "@tsconfig/node16": "^1.0.1",
         "assertions": "~2.3.4",
-        "render": "~0.1.4",
-        "trees": "~0.0.4",
         "event-stream": "~4.0.1",
-        "tape": "~5.2.2"
+        "it-is": "~1.0.3",
+        "render": "~0.1.4",
+        "tape": "~5.2.2",
+        "trees": "~0.0.4"
     },
     "bin": "./bin.js",
     "scripts": {

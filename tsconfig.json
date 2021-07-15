@@ -9,9 +9,10 @@
     "files": true,
   },
   "compilerOptions": {
-    "outDir": "dist",
+    "checkJs": true,
+    "outFile": "./index.js",
     "declaration": true,
-    "declarationDir": "src/types",
+    "declarationDir": "./",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "diagnostics": true,
@@ -27,13 +28,14 @@
     "pretty": true
   },
   "include": [
-    "./src",
-    "src/index.ts"
+    "./*.js",
   ],
   "exclude": [
     "node_modules*/**",
     "**/*.spec.ts",
     "~/.vscode*/**",
-    "src/types"
+    "src/types",
+    "test/**/*",
+    "examples/**"
   ]
 }

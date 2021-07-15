@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@tsconfig/node16@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.1.tgz#a6ca6a9a0ff366af433f42f5f0e124794ff6b8f1"
+  integrity sha512-FTgBI767POY/lKNDNbIzgAX6miIDBs6NTCbdlDb8TrWovHsSvaVIZDlTqym29C6UqhzwcJx4CYr+AlrMywA0cA==
+
 assertions@~2.3.1, assertions@~2.3.4:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/assertions/-/assertions-2.3.4.tgz#a9433ced1fce57cc999af0965d1008e96c2796e6"
