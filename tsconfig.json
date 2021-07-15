@@ -1,0 +1,39 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "ts-node": {
+    // It is faster to skip typechecking.
+    // Remove if you want ts-node to do typechecking.
+    "transpileOnly": true,
+    "preferTsExts": true,
+    "transpiler": "ts-node/transpilers/swc-experimental",
+    "files": true,
+  },
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "src/types",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "diagnostics": true,
+    "strict": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
+    "baseUrl": "./",
+    "paths": {},
+    "pretty": true
+  },
+  "include": [
+    "./src",
+    "src/index.ts"
+  ],
+  "exclude": [
+    "node_modules*/**",
+    "**/*.spec.ts",
+    "~/.vscode*/**",
+    "src/types"
+  ]
+}
