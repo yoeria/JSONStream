@@ -10,7 +10,9 @@
   },
   "compilerOptions": {
     "checkJs": true,
-    "outFile": "./index.js",
+    "emitDeclarationOnly": true,
+
+
     "declaration": true,
     "declarationDir": "./",
     "moduleResolution": "node",
