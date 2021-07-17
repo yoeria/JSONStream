@@ -1,5 +1,5 @@
 {
-    "name": "jsonstream",
+    "name": "jsonstream-ts",
     "version": "1.3.6",
     "description": "rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)",
     "homepage": "http://github.com/yoeria/JSONStream",
@@ -9,12 +9,14 @@
     },
     "license": "(MIT OR Apache-2.0)",
     "keywords": [
+        "ts",
+        "async",
         "json",
+        "parser",
+        "parsing",
         "stream",
         "streaming",
-        "parser",
-        "async",
-        "parsing"
+        "typescript"
     ],
     "dependencies": {
         "jsonparse": "^1.3.1",
